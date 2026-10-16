@@ -1,0 +1,7 @@
+# This folder is excluded by the ApplicationSet, so no Application is created for it.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: experimental
+data:
+  note: "should never be deployed"
